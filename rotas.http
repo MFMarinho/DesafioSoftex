@@ -1,0 +1,27 @@
+##
+GET http://localhost:2525/usuarios
+
+###
+GET http://localhost:2525/usuarios/3
+
+###
+POST http://localhost:2525/usuarios
+Content-Type: application/json
+
+{
+  "nome": "Ubiratan Felix"
+}
+
+###
+PUT http://localhost:2525/usuarios/1
+Content-Type: application/json
+
+{
+  "nome": "Aleatório"
+}
+
+###
+DELETE http://localhost:2525/usuarios/2
+
+###
+GET http://localhost:2525/saudacao/Matheus
